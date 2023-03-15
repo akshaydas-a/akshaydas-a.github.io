@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Akshay Das</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Data Analyst</p>
+                    <h1>Hi, I'm <span>Akshay Das</span><br>Engineering Student from Kerala</h1>
+                </div>
+            </div>
+        </div>
+
+        <!------------about------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="about.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi there! My name is Akshay Das A, and I am a Computer Science Engineer.
+                        I have always been fascinated by the intersection of technology and innovation, and it has been a dream of mine to be a part of the 
+                        exciting world of computer science. I am pursuing Bachelor's degree in Computer Science and Engineering from APJAKTU, where I gained a 
+                        strong foundation in programming languages such as C, Python, and Java, as well as data structures, algorithms, and software engineering 
+                        principles.<br></p>
+                        <p>I am passionate about solving complex problems using technology, and I enjoy exploring new technologies and learning new skills. During my 
+                        time in university, I had the opportunity to work on several challenging projects, such as developing n automated proctoring system using AI/ML, 
+                        AI Virtual Mouse using hand gestures and also done some Data Analytics tasks in Internships.<br></p> 
+                        <p>In addition to my technical skills, I am also dedicated to continuous learning and professional development. I am always looking for new 
+                        opportunities to improve my skills and stay up-to-date with the latest trends and advancements in the field of computer science. <br></p> 
+                        <p>I am excited about the possibilities that the future holds for computer science, and I look forward to being a part of it. Thank you for 
+                        taking the time to learn a little bit about me, and please feel free to explore my portfolio to see some of my work. <br></p>
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>Data Analyst</li>
+                                <li>ML Project Developer</li>
+                                <li>Web Front-end Developer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>KPMG Data Analytics Consulting Virtual Internship</li>
+                                <li>Ethical Hacking 1-week online internship</li>
+                                <li>Configure your smartphone sensor Using MIT app Inventor 1-week online internship</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-current</span><br>CSE from APJAKTU</li>
+                                <li><span>2017-2019</span><br>Higher Secondary Education from PMG Palakkad</li>
+                                <li><span>2010-2017</span><br>High School Education from ASSISI Palakkad</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------portfolio------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>Automated Proctoring System</h3>
+                            <p>The system can be integrated with online test to detect malpractises done by the students
+                                during the exam.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <h3>AI Virtual Mouse</h3>
+                            <p>The system proposes a virtual mouse system that makes use of 
+                            the hand gestures and hand tip detection for performing mouse functions in the computer using computer vision.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div> 
+                <a href="#" class="btn">See more</a> 
+            </div>
+        </div>
+        <!--------Contact--------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-envelope"></i>akshaydas9.888@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91 8547378549</p>
+                        <div class="social-icons">
+                            <a href="http://www.linkedin.com/in/akshaydasa"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/akshaydas-a"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://instagram.com/akshay_das._?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/AkshayD74209937?t=jowPg61BH6Hxv6bcSRDcTw&s=09"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="Akshay Das A .pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Akshay  <i class="fa-solid fa-face-smile-wink"></i> </p>
+            </div>
+        </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+
+            var sidemeu=document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right="0";
+            }
+            function closemenu(){
+                sidemeu.style.right="-200px";
+            }
+
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxqJyInzSMcPayrSkLiTTD1nKytVWo-mb-MyxB6nBNp3bGxv0D_iUs3-hySY8S4W_vn/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg");
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+                })
+        </script>
+    </body>
+</html>
